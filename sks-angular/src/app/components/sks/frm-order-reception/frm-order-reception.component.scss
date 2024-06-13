@@ -1,0 +1,493 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
+
+.SKS_frmOrderReception {
+    left: -1px;
+    top: -1px;
+}
+.SKS_frmOrderReception .frmOrderReception {
+    $tmp: variables.window-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $width: 521px,
+        $height: 648px,
+        $overflow: hidden,
+        $font-size: 8.25pt,
+        $left: 3px,
+        $top: 25px,
+    );
+    @include components.window-theme($tmp);
+}
+.SKS_frmOrderReception .Label6 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 248px,
+        $width: 33px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmOrderReception .Label8 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 512px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmOrderReception .Label9 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 272px,
+        $top: 536px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmOrderReception .Label10 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 272px,
+        $top: 512px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmOrderReception .Label11 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 560px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmOrderReception .Label12 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 536px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmOrderReception .Label7 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 488px,
+        $width: 81px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmOrderReception .Frame2 {
+    $tmp: variables.groupbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 184px,
+        $width: 505px,
+        $height: 49px,
+        $position: absolute,
+    );
+    @include components.groupbox-theme($tmp);
+}
+.SKS_frmOrderReception .Label1 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 232px,
+        $top: 16px,
+        $width: 57px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmOrderReception .Label5 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 16px,
+        $width: 57px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmOrderReception .txtProviderCompany {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 72px,
+        $top: 16px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmOrderReception .txtProviderContact {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 288px,
+        $top: 16px,
+        $width: 209px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmOrderReception .Frame1 {
+    $tmp: variables.groupbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 8px,
+        $width: 505px,
+        $height: 169px,
+        $position: absolute,
+    );
+    @include components.groupbox-theme($tmp);
+}
+.SKS_frmOrderReception .Label2 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 48px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmOrderReception .Label4 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 16px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmOrderReception .Label3 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 240px,
+        $top: 48px,
+        $width: 97px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmOrderReception .lvProviders {
+    $tmp: variables.listview-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 80px,
+        $width: 489px,
+        $height: 81px,
+        $position: absolute,
+    );
+    @include components.listview-theme($tmp);
+}
+.SKS_frmOrderReception .cmdProviders {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 456px,
+        $top: 16px,
+        $width: 25px,
+        $height: 21px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmOrderReception .txtContactName {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 88px,
+        $top: 48px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmOrderReception .txtContactLastName {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 336px,
+        $top: 48px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmOrderReception .txtProviderName {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 88px,
+        $top: 16px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmOrderReception .cmdAddProducts {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 488px,
+        $top: 264px,
+        $width: 25px,
+        $height: 21px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmOrderReception .cmdClose {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 424px,
+        $top: 584px,
+        $width: 89px,
+        $height: 25px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmOrderReception .cmdSave {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 320px,
+        $top: 584px,
+        $width: 89px,
+        $height: 25px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmOrderReception .sbStatusBar {
+    $tmp: variables.statusstrip-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $left: 0,
+        $bottom: 0,
+        $width: 100%,
+        $height: 25px,
+        $position: absolute,
+        $border: inset 1px,
+    );
+    @include components.statusstrip-theme($tmp);
+}
+.SKS_frmOrderReception .sbStatusBar_Panels_Panel1 {
+    $tmp: variables.toolstrip-statuslabel-theme-values(
+        $width: 521px,
+        $height: 25px,
+        $position: relative,
+    );
+    @include components.toolstrip-statuslabel-theme($tmp);
+}
+.SKS_frmOrderReception .fgProducts {
+    $tmp: variables.datagridviewflex-theme-values(
+        $left: 8px,
+        $top: 288px,
+        $width: 505px,
+        $height: 177px,
+        $position: absolute,
+    );
+    @include components.datagridviewflex-theme($tmp);
+}
+.SKS_frmOrderReception .txtEntry {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 88px,
+        $top: 488px,
+        $width: 145px,
+        $height: 19px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmOrderReception .txtSalesTax {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 88px,
+        $top: 512px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmOrderReception .txtFreightCharge {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 88px,
+        $top: 536px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmOrderReception .txtTotalTax {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 352px,
+        $top: 512px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmOrderReception .txtTotal {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 88px,
+        $top: 560px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmOrderReception .txtSubTotal {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 352px,
+        $top: 536px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmOrderReception .txtNotes {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 56px,
+        $top: 240px,
+        $width: 425px,
+        $height: 44px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}

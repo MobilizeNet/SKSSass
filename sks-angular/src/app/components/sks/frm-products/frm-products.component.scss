@@ -1,0 +1,370 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
+
+.SKS_frmProducts {
+    left: -1px;
+    top: -1px;
+}
+.SKS_frmProducts .frmProducts {
+    $tmp: variables.window-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $width: 448px,
+        $height: 379px,
+        $overflow: hidden,
+        $font-size: 8.25pt,
+        $left: 3px,
+        $top: 25px,
+    );
+    @include components.window-theme($tmp);
+}
+.SKS_frmProducts .Toolbar1 {
+    $tmp: variables.toolstrip-theme-values(
+        $font-size: 8.25pt,
+        $left: 0px,
+        $top: 0px,
+        $width: 448px,
+        $height: 44px,
+        $position: absolute,
+    );
+    @include components.toolstrip-theme($tmp);
+}
+.SKS_frmProducts .Toolbar1_Buttons_Button6 {
+    $tmp: variables.toolstrip-button-theme-values(
+        $width: 44px,
+        $height: 39px,
+        $position: relative,
+    );
+    @include components.toolstrip-button-theme($tmp);
+}
+.SKS_frmProducts .Toolbar1_Buttons_Button5 {
+    $tmp: variables.toolstrip-button-theme-values(
+        $width: 44px,
+        $height: 39px,
+        $position: relative,
+    );
+    @include components.toolstrip-button-theme($tmp);
+}
+.SKS_frmProducts .Toolbar1_Buttons_Button4 {
+    $tmp: variables.toolstrip-button-theme-values(
+        $width: 44px,
+        $height: 39px,
+        $position: relative,
+    );
+    @include components.toolstrip-button-theme($tmp);
+}
+.SKS_frmProducts .Toolbar1_Buttons_Button3 {
+    $tmp: variables.toolstrip-button-theme-values(
+        $width: 44px,
+        $height: 39px,
+        $position: relative,
+    );
+    @include components.toolstrip-button-theme($tmp);
+}
+.SKS_frmProducts .Toolbar1_Buttons_Button2 {
+    $tmp: variables.toolstrip-button-theme-values(
+        $width: 44px,
+        $height: 39px,
+        $position: relative,
+    );
+    @include components.toolstrip-button-theme($tmp);
+}
+.SKS_frmProducts .Toolbar1_Buttons_Button1 {
+    $tmp: variables.toolstrip-button-theme-values(
+        $width: 44px,
+        $height: 39px,
+        $position: relative,
+    );
+    @include components.toolstrip-button-theme($tmp);
+}
+.SKS_frmProducts .dcProducts {
+    $tmp: variables.adodatacontrol-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 336px,
+        $width: 200px,
+        $height: 25px,
+        $position: absolute,
+        $overflow: hidden,
+    );
+    @include components.adodatacontrol-theme($tmp);
+}
+.SKS_frmProducts .Frame1 {
+    $tmp: variables.groupbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 48px,
+        $width: 433px,
+        $height: 281px,
+        $position: absolute,
+    );
+    @include components.groupbox-theme($tmp);
+}
+.SKS_frmProducts .Label15 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 179px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProducts .Label11 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 118px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProducts .Label6 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 210px,
+        $width: 81px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProducts .Label5 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 148px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProducts .Label4 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 87px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProducts .Label1 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 56px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProducts .Label2 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 244px,
+        $width: 81px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProducts .Label3 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 24px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProducts .Label7 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 216px,
+        $top: 244px,
+        $width: 57px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProducts .txtCategory {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 200px,
+        $top: 120px,
+        $width: 10px,
+        $height: 13px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProducts .Check1 {
+    $tmp: variables.checkbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 181px,
+        $width: 25px,
+        $height: 17px,
+        $position: absolute,
+    );
+    @include components.checkbox-theme($tmp);
+}
+.SKS_frmProducts ._txtField_1 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 56px,
+        $width: 193px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProducts ._txtField_2 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 88px,
+        $width: 305px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProducts ._txtField_3 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 148px,
+        $width: 121px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProducts ._txtField_4 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 210px,
+        $width: 105px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProducts .cmbCategory {
+    $tmp: variables.combobox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 117px,
+        $width: 121px,
+        $height: 21px,
+        $position: absolute,
+    );
+    @include components.combobox-theme($tmp);
+}
+.SKS_frmProducts ._txtField_5 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 240px,
+        $width: 105px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProducts ._txtField_0 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 24px,
+        $width: 113px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProducts ._txtField_6 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 256px,
+        $top: 240px,
+        $width: 105px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}

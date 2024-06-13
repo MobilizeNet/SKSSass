@@ -1,0 +1,379 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
+
+.SKS_frmRequestApproval {
+    left: -1px;
+    top: -1px;
+}
+.SKS_frmRequestApproval .frmRequestApproval {
+    $tmp: variables.window-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $width: 523px,
+        $height: 496px,
+        $overflow: hidden,
+        $font-size: 8.25pt,
+        $left: 3px,
+        $top: 25px,
+    );
+    @include components.window-theme($tmp);
+}
+.SKS_frmRequestApproval .Frame1 {
+    $tmp: variables.groupbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 8px,
+        $width: 505px,
+        $height: 153px,
+        $position: absolute,
+    );
+    @include components.groupbox-theme($tmp);
+}
+.SKS_frmRequestApproval .Label2 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 48px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmRequestApproval .Label4 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 16px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmRequestApproval .Label3 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 256px,
+        $top: 48px,
+        $width: 65px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmRequestApproval .Label6 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 80px,
+        $width: 65px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmRequestApproval .Label1 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 112px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmRequestApproval .Label8 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 256px,
+        $top: 112px,
+        $width: 73px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmRequestApproval .Label5 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 288px,
+        $top: 16px,
+        $width: 41px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmRequestApproval .dtTo {
+    $tmp: variables.datetimepicker-theme-values(
+        $font-size: 8.25pt,
+        $left: 384px,
+        $top: 80px,
+        $width: 97px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.datetimepicker-theme($tmp);
+}
+.SKS_frmRequestApproval .dtFrom {
+    $tmp: variables.datetimepicker-theme-values(
+        $font-size: 8.25pt,
+        $left: 136px,
+        $top: 80px,
+        $width: 97px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.datetimepicker-theme($tmp);
+}
+.SKS_frmRequestApproval .txtCompanyName {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 88px,
+        $top: 16px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmRequestApproval .cmdCustomers {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 240px,
+        $top: 16px,
+        $width: 25px,
+        $height: 21px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmRequestApproval .txtContactName {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 88px,
+        $top: 48px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmRequestApproval .txtContactLastName {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 336px,
+        $top: 48px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmRequestApproval .txtOrderID {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 88px,
+        $top: 112px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmRequestApproval .txtProductID {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 336px,
+        $top: 112px,
+        $width: 145px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmRequestApproval .chkFrom {
+    $tmp: variables.checkbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 88px,
+        $top: 80px,
+        $width: 47px,
+        $height: 17px,
+        $position: absolute,
+    );
+    @include components.checkbox-theme($tmp);
+}
+.SKS_frmRequestApproval .chkTo {
+    $tmp: variables.checkbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 336px,
+        $top: 80px,
+        $width: 41px,
+        $height: 17px,
+        $position: absolute,
+    );
+    @include components.checkbox-theme($tmp);
+}
+.SKS_frmRequestApproval .cmbStatus {
+    $tmp: variables.combobox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 336px,
+        $top: 16px,
+        $width: 145px,
+        $height: 21px,
+        $position: absolute,
+    );
+    @include components.combobox-theme($tmp);
+}
+.SKS_frmRequestApproval .cmdClose {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 424px,
+        $top: 440px,
+        $width: 89px,
+        $height: 25px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmRequestApproval .cmdCancel {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 328px,
+        $top: 440px,
+        $width: 89px,
+        $height: 25px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmRequestApproval .sbStatusBar {
+    $tmp: variables.statusstrip-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $left: 0,
+        $bottom: 0,
+        $width: 100%,
+        $height: 25px,
+        $position: absolute,
+        $border: inset 1px,
+    );
+    @include components.statusstrip-theme($tmp);
+}
+.SKS_frmRequestApproval .sbStatusBar_Panels_Panel1 {
+    $tmp: variables.toolstrip-statuslabel-theme-values(
+        $width: 523px,
+        $height: 25px,
+        $position: relative,
+    );
+    @include components.toolstrip-statuslabel-theme($tmp);
+}
+.SKS_frmRequestApproval .fgOrders {
+    $tmp: variables.datagridviewflex-theme-values(
+        $left: 8px,
+        $top: 168px,
+        $width: 505px,
+        $height: 265px,
+        $position: absolute,
+    );
+    @include components.datagridviewflex-theme($tmp);
+}
+.SKS_frmRequestApproval .cmdInfo {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 136px,
+        $top: 440px,
+        $width: 89px,
+        $height: 25px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmRequestApproval .cmdApprove {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 232px,
+        $top: 440px,
+        $width: 89px,
+        $height: 25px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}

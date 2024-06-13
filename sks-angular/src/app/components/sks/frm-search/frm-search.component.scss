@@ -1,0 +1,162 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
+
+.SKS_frmSearch {
+    left: -1px;
+    top: -1px;
+}
+.SKS_frmSearch .frmSearch {
+    $tmp: variables.window-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $width: 378px,
+        $height: 173px,
+        $overflow: hidden,
+        $font-size: 8.25pt,
+        $left: 486px,
+        $top: 322px,
+    );
+    @include components.window-theme($tmp);
+}
+.SKS_frmSearch .lblSrchBy {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: #404040,
+        $left: 7px,
+        $top: 72px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmSearch .Label1 {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: #404040,
+        $left: 125px,
+        $top: 144px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmSearch .Image3 {
+    $tmp: variables.picturebox-theme-values(
+        $font-size: 8.25pt,
+        $left: 8px,
+        $top: 8px,
+        $width: 16px,
+        $height: 16px,
+        $position: absolute,
+    );
+    @include components.picturebox-theme($tmp);
+}
+.SKS_frmSearch .Label19 {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: Transparent,
+        $font-size: 9.75pt,
+        $foreground: #404040,
+        $left: 49px,
+        $top: 8px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmSearch .Label20 {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: Transparent,
+        $font-size: 8.25pt,
+        $foreground: #404040,
+        $left: 49px,
+        $top: 32px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmSearch .txtSrchStr {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 136px,
+        $top: 72px,
+        $width: 217px,
+        $height: 19px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmSearch .cboSrchBy {
+    $tmp: variables.combobox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 208px,
+        $top: 144px,
+        $width: 145px,
+        $height: 21px,
+        $position: absolute,
+    );
+    @include components.combobox-theme($tmp);
+}
+.SKS_frmSearch .ctrlLiner1 {
+    $tmp: variables.picturebox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $left: 0px,
+        $top: 56px,
+        $width: 385px,
+        $height: 2px,
+        $position: absolute,
+    );
+    @include components.picturebox-theme($tmp);
+}
+.SKS_frmSearch .cmdSearch {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 184px,
+        $top: 104px,
+        $width: 81px,
+        $height: 25px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmSearch .cmdClose {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 272px,
+        $top: 104px,
+        $width: 81px,
+        $height: 25px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}

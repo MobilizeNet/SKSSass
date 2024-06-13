@@ -1,0 +1,30 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
+
+.SKS_frmSplash {
+    left: -1px;
+    top: -1px;
+}
+.SKS_frmSplash .frmSplash {
+    $tmp: variables.window-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $width: 943px,
+        $height: 613px,
+        $overflow: hidden,
+        $font-size: 8.25pt,
+        $left: 17px,
+        $top: 116px,
+    );
+    @include components.window-theme($tmp);
+}
+.SKS_frmSplash .Image1 {
+    $tmp: variables.picturebox-theme-values(
+        $font-size: 8.25pt,
+        $left: 0px,
+        $top: 0px,
+        $width: 964px,
+        $height: 642px,
+        $position: absolute,
+    );
+    @include components.picturebox-theme($tmp);
+}

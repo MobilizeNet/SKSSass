@@ -1,0 +1,136 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
+
+.SKS_frmAbout {
+    left: -1px;
+    top: -1px;
+}
+.SKS_frmAbout .frmAbout {
+    $tmp: variables.window-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $width: 394px,
+        $height: 237px,
+        $overflow: hidden,
+        $font-size: 8.25pt,
+        $left: 156px,
+        $top: 129px,
+    );
+    @include components.window-theme($tmp);
+}
+.SKS_frmAbout .lblDisclaimer {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: Black,
+        $left: 17px,
+        $top: 175px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmAbout .lblVersion {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 163px,
+        $top: 56px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmAbout ._Line1_0 {
+    $tmp: variables.label-theme-values(
+        $background: White,
+        $font-size: 8.25pt,
+        $left: 6px,
+        $top: 148px,
+        $width: 293px,
+        $height: 1px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmAbout .lblTitle {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: Black,
+        $left: 163px,
+        $top: 24px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmAbout .lblDescription {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: Black,
+        $left: 164px,
+        $top: 80px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmAbout ._Line1_1 {
+    $tmp: variables.label-theme-values(
+        $background: Gray,
+        $font-size: 8.25pt,
+        $left: 5px,
+        $top: 147px,
+        $width: 294px,
+        $height: 1px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmAbout .cmdOK {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 272px,
+        $top: 208px,
+        $width: 108px,
+        $height: 23px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmAbout .picIcon {
+    $tmp: variables.picturebox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $left: 16px,
+        $top: 16px,
+        $width: 36px,
+        $height: 36px,
+        $position: absolute,
+    );
+    @include components.picturebox-theme($tmp);
+}

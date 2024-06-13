@@ -1,0 +1,510 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
+
+.SKS_frmProviders {
+    left: -1px;
+    top: -1px;
+}
+.SKS_frmProviders .frmProviders {
+    $tmp: variables.window-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $width: 454px,
+        $height: 447px,
+        $overflow: hidden,
+        $font-size: 8.25pt,
+        $left: 3px,
+        $top: 25px,
+    );
+    @include components.window-theme($tmp);
+}
+.SKS_frmProviders .Toolbar1 {
+    $tmp: variables.toolstrip-theme-values(
+        $font-size: 8.25pt,
+        $left: 0px,
+        $top: 0px,
+        $width: 454px,
+        $height: 44px,
+        $position: absolute,
+    );
+    @include components.toolstrip-theme($tmp);
+}
+.SKS_frmProviders .Toolbar1_Buttons_Button6 {
+    $tmp: variables.toolstrip-button-theme-values(
+        $width: 44px,
+        $height: 39px,
+        $position: relative,
+    );
+    @include components.toolstrip-button-theme($tmp);
+}
+.SKS_frmProviders .Toolbar1_Buttons_Button5 {
+    $tmp: variables.toolstrip-button-theme-values(
+        $width: 44px,
+        $height: 39px,
+        $position: relative,
+    );
+    @include components.toolstrip-button-theme($tmp);
+}
+.SKS_frmProviders .Toolbar1_Buttons_Button4 {
+    $tmp: variables.toolstrip-button-theme-values(
+        $width: 44px,
+        $height: 39px,
+        $position: relative,
+    );
+    @include components.toolstrip-button-theme($tmp);
+}
+.SKS_frmProviders .Toolbar1_Buttons_Button3 {
+    $tmp: variables.toolstrip-button-theme-values(
+        $width: 44px,
+        $height: 39px,
+        $position: relative,
+    );
+    @include components.toolstrip-button-theme($tmp);
+}
+.SKS_frmProviders .Toolbar1_Buttons_Button2 {
+    $tmp: variables.toolstrip-button-theme-values(
+        $width: 44px,
+        $height: 39px,
+        $position: relative,
+    );
+    @include components.toolstrip-button-theme($tmp);
+}
+.SKS_frmProviders .Toolbar1_Buttons_Button1 {
+    $tmp: variables.toolstrip-button-theme-values(
+        $width: 44px,
+        $height: 39px,
+        $position: relative,
+    );
+    @include components.toolstrip-button-theme($tmp);
+}
+.SKS_frmProviders .Frame1 {
+    $tmp: variables.groupbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 48px,
+        $width: 433px,
+        $height: 353px,
+        $position: absolute,
+    );
+    @include components.groupbox-theme($tmp);
+}
+.SKS_frmProviders .Label1 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 24px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders .Label6 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 114px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders .Label8 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 232px,
+        $top: 115px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders .Label9 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 232px,
+        $top: 145px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders .Label10 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 232px,
+        $top: 176px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders .Label11 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 54px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders .Label12 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 200px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders .Label13 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 145px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders .Label14 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 176px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders .Label15 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 83px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders .Label4 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 272px,
+        $width: 89px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders ._txtField_9 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 312px,
+        $top: 145px,
+        $width: 105px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders ._txtField_14 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 216px,
+        $width: 401px,
+        $height: 52px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders ._txtField_10 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 312px,
+        $top: 176px,
+        $width: 105px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders ._txtField_8 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 312px,
+        $top: 115px,
+        $width: 105px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders .Frame2 {
+    $tmp: variables.groupbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 224px,
+        $top: 14px,
+        $width: 194px,
+        $height: 97px,
+        $position: absolute,
+    );
+    @include components.groupbox-theme($tmp);
+}
+.SKS_frmProviders .Label2 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 43px,
+        $width: 57px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders .Label3 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 69px,
+        $width: 57px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders .Label7 {
+    $tmp: variables.label-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 16px,
+        $width: 49px,
+        $height: 17px,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmProviders ._txtField_12 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 64px,
+        $top: 40px,
+        $width: 121px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders ._txtField_13 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 64px,
+        $top: 64px,
+        $width: 121px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders ._txtField_11 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 64px,
+        $top: 16px,
+        $width: 121px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders ._txtField_5 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 114px,
+        $width: 105px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders ._txtField_2 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 54px,
+        $width: 105px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders ._txtField_7 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 176px,
+        $width: 105px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders ._txtField_6 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 145px,
+        $width: 105px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders ._txtField_0 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 24px,
+        $width: 105px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders ._txtField_4 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 104px,
+        $top: 83px,
+        $width: 105px,
+        $height: 20px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders ._txtField_1 {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 16px,
+        $top: 288px,
+        $width: 401px,
+        $height: 52px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmProviders .dcProviders {
+    $tmp: variables.adodatacontrol-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 408px,
+        $width: 200px,
+        $height: 25px,
+        $position: absolute,
+        $overflow: hidden,
+    );
+    @include components.adodatacontrol-theme($tmp);
+}

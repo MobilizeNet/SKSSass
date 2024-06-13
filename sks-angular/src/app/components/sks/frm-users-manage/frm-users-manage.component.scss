@@ -1,0 +1,325 @@
+@use "node_modules/@mobilize/winforms-components/src/SCSS/components" as components;
+@use "node_modules/@mobilize/winforms-components/src/SCSS/variables" as variables;
+
+.SKS_frmUsersManage {
+    left: -1px;
+    top: -1px;
+}
+.SKS_frmUsersManage .frmUsersManage {
+    $tmp: variables.window-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $width: 341px,
+        $height: 414px,
+        $overflow: hidden,
+        $font-size: 8.25pt,
+        $left: 327px,
+        $top: 144px,
+    );
+    @include components.window-theme($tmp);
+}
+.SKS_frmUsersManage .Image1 {
+    $tmp: variables.picturebox-theme-values(
+        $font-size: 8.25pt,
+        $left: 8px,
+        $top: 8px,
+        $width: 32px,
+        $height: 32px,
+        $position: absolute,
+    );
+    @include components.picturebox-theme($tmp);
+}
+.SKS_frmUsersManage .Label4 {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: Transparent,
+        $font-size: 8.25pt,
+        $foreground: #404040,
+        $left: 48px,
+        $top: 32px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmUsersManage .Label19 {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: Transparent,
+        $font-size: 9.75pt,
+        $foreground: #404040,
+        $left: 48px,
+        $top: 8px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmUsersManage ._Label1_4 {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: #404040,
+        $left: 8px,
+        $top: 392px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmUsersManage .cmdDelete {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 256px,
+        $top: 384px,
+        $width: 81px,
+        $height: 25px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmUsersManage .cmdEdit {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 168px,
+        $top: 384px,
+        $width: 81px,
+        $height: 25px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmUsersManage .cmdClose {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 256px,
+        $top: 232px,
+        $width: 81px,
+        $height: 25px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmUsersManage .Frame1 {
+    $tmp: variables.groupbox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 8px,
+        $top: 64px,
+        $width: 329px,
+        $height: 153px,
+        $position: absolute,
+    );
+    @include components.groupbox-theme($tmp);
+}
+.SKS_frmUsersManage .lblId {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: #404040,
+        $left: 128px,
+        $top: 24px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmUsersManage ._Label1_3 {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: #404040,
+        $left: 16px,
+        $top: 120px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmUsersManage ._Label1_1 {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: #404040,
+        $left: 16px,
+        $top: 56px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmUsersManage ._Label1_0 {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: #404040,
+        $left: 16px,
+        $top: 32px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmUsersManage ._Label1_2 {
+    $tmp: variables.label-theme-values(
+        $width: auto,
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: #404040,
+        $left: 16px,
+        $top: 88px,
+        $height: auto,
+        $position: absolute,
+    );
+    white-space: nowrap;
+    overflow: hidden;
+    @include components.label-theme($tmp);
+}
+.SKS_frmUsersManage .cboLevel {
+    $tmp: variables.combobox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 120px,
+        $top: 120px,
+        $width: 193px,
+        $height: 21px,
+        $position: absolute,
+    );
+    @include components.combobox-theme($tmp);
+}
+.SKS_frmUsersManage .txtUsername {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 120px,
+        $top: 24px,
+        $width: 193px,
+        $height: 19px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmUsersManage .txtPassword {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 120px,
+        $top: 56px,
+        $width: 193px,
+        $height: 19px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmUsersManage .txtFullname {
+    $tmp: variables.textbox-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 120px,
+        $top: 88px,
+        $width: 193px,
+        $height: 19px,
+        $position: absolute,
+    );
+    @include components.textbox-theme($tmp);
+}
+.SKS_frmUsersManage .ctrlLiner1 {
+    $tmp: variables.picturebox-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $left: 0px,
+        $top: 56px,
+        $width: 313px,
+        $height: 2px,
+        $position: absolute,
+    );
+    @include components.picturebox-theme($tmp);
+}
+.SKS_frmUsersManage .cmdSave {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 80px,
+        $top: 232px,
+        $width: 81px,
+        $height: 25px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmUsersManage .cmdClear {
+    $tmp: variables.button-theme-values(
+        $background: rgba(240, 240, 240, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 168px,
+        $top: 232px,
+        $width: 81px,
+        $height: 25px,
+        $position: absolute,
+    );
+    padding: 0px 0px 0px 0px;
+    display: table-cell;
+    vertical-align: middle;
+    display: table-cell;
+    @include components.button-theme($tmp);
+}
+.SKS_frmUsersManage .lstAccounts {
+    $tmp: variables.listview-theme-values(
+        $background: rgba(255, 255, 255, 1),
+        $font-size: 8.25pt,
+        $foreground: rgba(0, 0, 0, 1),
+        $left: 0px,
+        $top: 264px,
+        $width: 337px,
+        $height: 113px,
+        $position: absolute,
+    );
+    @include components.listview-theme($tmp);
+}
